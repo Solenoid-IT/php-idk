@@ -1,0 +1,26 @@
+{
+    "name": "solenoid/idk",
+    "description": "IDK library",
+    "type": "library",
+    "keywords": ["idk"],
+    "homepage": "https://github.com/Solenoid-IT/php-idk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pier Niccolò Giannelli",
+            "email": "pierniccologiannelli@gmail.com",
+            "homepage": "https://www.solenoid.it",
+            "role": "Full Stack Web Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "solenoid/encryption": "^1.0.0",
+        "solenoid/base64u": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Solenoid\\IDK\\": "src"
+        }
+    }
+}
